@@ -8,20 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		5F0F10E321E3CEDF001488D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F10E221E3CEDF001488D0 /* AppDelegate.swift */; };
-		5F0F10E521E3CEDF001488D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F10E421E3CEDF001488D0 /* ViewController.swift */; };
 		5F0F10E821E3CEDF001488D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0F10E621E3CEDF001488D0 /* Main.storyboard */; };
 		5F0F10EA21E3CEE1001488D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0F10E921E3CEE1001488D0 /* Assets.xcassets */; };
 		5F0F10ED21E3CEE1001488D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0F10EB21E3CEE1001488D0 /* LaunchScreen.storyboard */; };
+		5F0F10FA21E3CF83001488D0 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F10F921E3CF83001488D0 /* Currency.swift */; };
+		5F0F10FC21E3CF8C001488D0 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F10FB21E3CF8C001488D0 /* Transaction.swift */; };
+		5F0F10FE21E3D04A001488D0 /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F10FD21E3D04A001488D0 /* NetworkServices.swift */; };
+		5F0F110221E3D396001488D0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0F110121E3D396001488D0 /* Alamofire.framework */; };
+		5F0F110621E3D833001488D0 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F110521E3D833001488D0 /* MainController.swift */; };
+		5F0F110B21E3D873001488D0 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F110821E3D873001488D0 /* ContainerViewController.swift */; };
+		5F0F110C21E3D873001488D0 /* EmptySegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F110921E3D873001488D0 /* EmptySegue.swift */; };
+		5F0F110F21E3DBA6001488D0 /* TransactionTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F110E21E3DBA6001488D0 /* TransactionTab.swift */; };
+		5F0F111121E3DBB6001488D0 /* CurrencyTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F111021E3DBB6001488D0 /* CurrencyTab.swift */; };
+		5F0F111421E3E389001488D0 /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F111321E3E389001488D0 /* CurrencyCell.swift */; };
+		5F0F111621E3E69F001488D0 /* TransactionListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F111521E3E69F001488D0 /* TransactionListController.swift */; };
+		5F0F111821E3E75E001488D0 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F111721E3E75E001488D0 /* TransactionCell.swift */; };
+		5F0F111C21E3F65A001488D0 /* SpecificTransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F111B21E3F65A001488D0 /* SpecificTransactionController.swift */; };
+		5F0F111E21E3FD0C001488D0 /* SpecificTransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F111D21E3FD0C001488D0 /* SpecificTransactionCell.swift */; };
+		B1DB550C101072E78D546AF5 /* Pods_GNB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA1DEAC88DCC127E0503E51 /* Pods_GNB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F0F10DF21E3CEDF001488D0 /* GNB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GNB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0F10E221E3CEDF001488D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F0F10E421E3CEDF001488D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F0F10E721E3CEDF001488D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F0F10E921E3CEE1001488D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F0F10EC21E3CEE1001488D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F0F10EE21E3CEE1001488D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F0F10F921E3CF83001488D0 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		5F0F10FB21E3CF8C001488D0 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		5F0F10FD21E3D04A001488D0 /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		5F0F10FF21E3D26F001488D0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0F110121E3D396001488D0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0F110521E3D833001488D0 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		5F0F110821E3D873001488D0 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		5F0F110921E3D873001488D0 /* EmptySegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptySegue.swift; sourceTree = "<group>"; };
+		5F0F110E21E3DBA6001488D0 /* TransactionTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTab.swift; sourceTree = "<group>"; };
+		5F0F111021E3DBB6001488D0 /* CurrencyTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTab.swift; sourceTree = "<group>"; };
+		5F0F111321E3E389001488D0 /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		5F0F111521E3E69F001488D0 /* TransactionListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListController.swift; sourceTree = "<group>"; };
+		5F0F111721E3E75E001488D0 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		5F0F111B21E3F65A001488D0 /* SpecificTransactionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificTransactionController.swift; sourceTree = "<group>"; };
+		5F0F111D21E3FD0C001488D0 /* SpecificTransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificTransactionCell.swift; sourceTree = "<group>"; };
+		6EA1DEAC88DCC127E0503E51 /* Pods_GNB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B268B76102B6F451D572DE /* Pods-GNB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNB.release.xcconfig"; path = "Pods/Target Support Files/Pods-GNB/Pods-GNB.release.xcconfig"; sourceTree = "<group>"; };
+		FA6BA309DE97D9BE7AD893B9 /* Pods-GNB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GNB/Pods-GNB.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +60,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F0F110221E3D396001488D0 /* Alamofire.framework in Frameworks */,
+				B1DB550C101072E78D546AF5 /* Pods_GNB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ED156CCD3E74D511BAA982C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BA309DE97D9BE7AD893B9 /* Pods-GNB.debug.xcconfig */,
+				D5B268B76102B6F451D572DE /* Pods-GNB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5F0F10D621E3CEDF001488D0 = {
 			isa = PBXGroup;
 			children = (
 				5F0F10E121E3CEDF001488D0 /* GNB */,
 				5F0F10E021E3CEDF001488D0 /* Products */,
+				0ED156CCD3E74D511BAA982C /* Pods */,
+				66A87F5DC0575BBA9E1D4EDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +98,76 @@
 		5F0F10E121E3CEDF001488D0 /* GNB */ = {
 			isa = PBXGroup;
 			children = (
+				5F0F111221E3E370001488D0 /* CustomCells */,
+				5F0F110721E3D840001488D0 /* CustomContainer */,
+				5F0F10F821E3CF74001488D0 /* Models */,
 				5F0F10E221E3CEDF001488D0 /* AppDelegate.swift */,
-				5F0F10E421E3CEDF001488D0 /* ViewController.swift */,
 				5F0F10E621E3CEDF001488D0 /* Main.storyboard */,
 				5F0F10E921E3CEE1001488D0 /* Assets.xcassets */,
 				5F0F10EB21E3CEE1001488D0 /* LaunchScreen.storyboard */,
 				5F0F10EE21E3CEE1001488D0 /* Info.plist */,
+				5F0F10FD21E3D04A001488D0 /* NetworkServices.swift */,
+				5F0F110521E3D833001488D0 /* MainController.swift */,
+				5F0F111F21E4B3E8001488D0 /* Transactions */,
+				5F0F112021E4B3F8001488D0 /* Currencies */,
 			);
 			path = GNB;
+			sourceTree = "<group>";
+		};
+		5F0F10F821E3CF74001488D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F0F10F921E3CF83001488D0 /* Currency.swift */,
+				5F0F10FB21E3CF8C001488D0 /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F0F110721E3D840001488D0 /* CustomContainer */ = {
+			isa = PBXGroup;
+			children = (
+				5F0F110821E3D873001488D0 /* ContainerViewController.swift */,
+				5F0F110921E3D873001488D0 /* EmptySegue.swift */,
+			);
+			path = CustomContainer;
+			sourceTree = "<group>";
+		};
+		5F0F111221E3E370001488D0 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				5F0F111321E3E389001488D0 /* CurrencyCell.swift */,
+				5F0F111721E3E75E001488D0 /* TransactionCell.swift */,
+				5F0F111D21E3FD0C001488D0 /* SpecificTransactionCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		5F0F111F21E4B3E8001488D0 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				5F0F110E21E3DBA6001488D0 /* TransactionTab.swift */,
+				5F0F111521E3E69F001488D0 /* TransactionListController.swift */,
+				5F0F111B21E3F65A001488D0 /* SpecificTransactionController.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		5F0F112021E4B3F8001488D0 /* Currencies */ = {
+			isa = PBXGroup;
+			children = (
+				5F0F111021E3DBB6001488D0 /* CurrencyTab.swift */,
+			);
+			path = Currencies;
+			sourceTree = "<group>";
+		};
+		66A87F5DC0575BBA9E1D4EDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F0F110121E3D396001488D0 /* Alamofire.framework */,
+				5F0F10FF21E3D26F001488D0 /* Alamofire.framework */,
+				6EA1DEAC88DCC127E0503E51 /* Pods_GNB.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F0F10F121E3CEE1001488D0 /* Build configuration list for PBXNativeTarget "GNB" */;
 			buildPhases = (
+				BBB11EAF3AE2A75AD0A10C29 /* [CP] Check Pods Manifest.lock */,
 				5F0F10DB21E3CEDF001488D0 /* Sources */,
 				5F0F10DC21E3CEDF001488D0 /* Frameworks */,
 				5F0F10DD21E3CEDF001488D0 /* Resources */,
+				D286842697410EEFCF0AD5B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +238,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BBB11EAF3AE2A75AD0A10C29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GNB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D286842697410EEFCF0AD5B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GNB/Pods-GNB-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GNB/Pods-GNB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F0F10DB21E3CEDF001488D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F0F10E521E3CEDF001488D0 /* ViewController.swift in Sources */,
+				5F0F111421E3E389001488D0 /* CurrencyCell.swift in Sources */,
+				5F0F10FE21E3D04A001488D0 /* NetworkServices.swift in Sources */,
+				5F0F111821E3E75E001488D0 /* TransactionCell.swift in Sources */,
+				5F0F111121E3DBB6001488D0 /* CurrencyTab.swift in Sources */,
+				5F0F10FA21E3CF83001488D0 /* Currency.swift in Sources */,
+				5F0F10FC21E3CF8C001488D0 /* Transaction.swift in Sources */,
+				5F0F110C21E3D873001488D0 /* EmptySegue.swift in Sources */,
+				5F0F111C21E3F65A001488D0 /* SpecificTransactionController.swift in Sources */,
+				5F0F111621E3E69F001488D0 /* TransactionListController.swift in Sources */,
+				5F0F110F21E3DBA6001488D0 /* TransactionTab.swift in Sources */,
+				5F0F111E21E3FD0C001488D0 /* SpecificTransactionCell.swift in Sources */,
 				5F0F10E321E3CEDF001488D0 /* AppDelegate.swift in Sources */,
+				5F0F110B21E3D873001488D0 /* ContainerViewController.swift in Sources */,
+				5F0F110621E3D833001488D0 /* MainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +447,7 @@
 		};
 		5F0F10F221E3CEE1001488D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA6BA309DE97D9BE7AD893B9 /* Pods-GNB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +466,7 @@
 		};
 		5F0F10F321E3CEE1001488D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B268B76102B6F451D572DE /* Pods-GNB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

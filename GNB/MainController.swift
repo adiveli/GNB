@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainController.swift
 //  GNB
 //
 //  Created by Adi Veliman on 07/01/2019.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
+        // Do any additional setup after loading the view.
+    }
+    
 
 }
-
